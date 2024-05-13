@@ -6,7 +6,7 @@ import requests
 # API to fetch city weather
 CityName = input("enter a city name: ")
 
-ApiKey = 'a41e17b419b2a2ea4513f9842a5e6fa7'
+ApiKey = 'Your API_KEY'
 
 # to build the API url
 ApiUrl = f'https://api.openweathermap.org/data/2.5/weather?q={CityName}&appid={ApiKey}&units=metric'
